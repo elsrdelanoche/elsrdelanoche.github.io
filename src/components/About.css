@@ -16,4 +16,9 @@
     border-radius: 50%; /* Esto hace que la imagen sea circular */
     object-fit: cover; /* Asegura que la imagen cubra todo el espacio circular */
   }
-  
+
+  .text-gradient {
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;;
+    -webkit-text-fill-color: transparent
+  }
