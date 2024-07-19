@@ -2,13 +2,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    background-color: #222; /* Color de fondo oscuro */
-    color: white; /* Color del texto claro */
+    padding: 8px;
+    /* background-color: #222; Color de fondo oscuro */
+    /* color: white; /* Color del texto claro */
   }
   
   .header-logo {
-    max-width: 100px; /* Ajusta el tamaño máximo del logo según tus necesidades */
+    max-width: 50px; /* Ajusta el tamaño máximo del logo según tus necesidades */
     height: auto;
   }
   
+  .header-name {
+    font-weight: bolder !important;
+    color: rgba(30, 48, 243, 1) !important;
+  }
