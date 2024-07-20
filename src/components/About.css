@@ -22,3 +22,27 @@
     -webkit-background-clip: text;;
     -webkit-text-fill-color: transparent
   }
+
+  /* Estilos básicos para todos los botones */
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.375rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+/* Estilos para el botón primario */
+.btn-primary {
+  color: #fff;
+  background-color: rgba(30, 48, 243, 1);
+  border: 1px solid rgba(30, 48, 243, 1);
+}
+

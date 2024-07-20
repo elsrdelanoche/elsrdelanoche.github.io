@@ -1,6 +1,7 @@
-import React, {} from 'react';
+import React from 'react';
 import './About.css';
 import Batman from '../../src/IMG/Alfredo.jpg'; // Asegúrate de importar la imagen correctamente
+import document from '../../src/documents/cvAlfredoBautista.pdf';
 
 function About() {
   return (
@@ -15,10 +16,13 @@ function About() {
             <p>
               I am a computer science student who enjoys understanding and exploring the potential of the technologies at my disposal. With great fascination, I have observed and learned from the advancements in this field, and I am eager to contribute by designing my own systems to address new challenges.
             </p>
-            <div class="btn-group fs-2 gap-4">
-                <a class="btn-link text-gradient" href="#!"><i class="bi bi-twitter"></i></a>
-                <a class="btn-link text-gradient" href="#!"><i class="bi bi-linkedin"></i></a>
-                <a class="btn-link text-gradient" href="#!"><i class="bi bi-github"></i></a>
+            <div className="btn-group fs-2 gap-4">
+              <a className="btn-link text-gradient" href="#!"><i className="bi bi-twitter"></i></a>
+              <a className="btn-link text-gradient" href="#!"><i className="bi bi-linkedin"></i></a>
+              <a className="btn-link text-gradient" href="#!"><i className="bi bi-github"></i></a>
+            </div>
+            <div className="mt-4">
+              <a className="btn btn-primary" href={document} target="_blank" rel="noopener noreferrer">RESUME BUTTON</a>
             </div>
           </div>
         </div>
@@ -33,6 +37,5 @@ function About() {
     </div>
   );
 }
-
 
 export default About;
