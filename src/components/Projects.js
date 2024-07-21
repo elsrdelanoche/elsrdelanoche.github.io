@@ -25,8 +25,10 @@ function Projects() {
   ];
 
   return (
-    <section id="projects" className="projects container px-5 pb-5">
-      <h2>Proyectos</h2>
+    <section id="projects" className="projects container py-5">
+      <div class="text-center mb-5">
+          <h2 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h2>
+      </div>
       <div className="row">
         {projects.map((project, index) => (
           <div key={index} className="col-md-4 mb-4"> {/* 3 proyectos por fila en pantallas medianas y grandes */}

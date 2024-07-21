@@ -9,7 +9,7 @@ function About() {
       <div className="row align-items-center">
         <div className="col-md-7 col-12 text-center text-md-start">
           <div className="about-me-text"> {/* Contenedor para el texto */}
-            <div className="fs-3 fw-light text-muted">Hello there...</div>
+            <div className="fs-3 fw-light text">Hello there...</div>
             <h1 className="display-3 fw-bolder mb-5">
               <span className="text-gradient d-inline">I'm Alfredo Bautista</span>
             </h1>

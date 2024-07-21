@@ -1,5 +1,5 @@
 .about {
-    padding: 20px;
+    /*padding: 20px;*/
   }
   
   .about h2 {
@@ -8,8 +8,11 @@
   
   .about p {
     line-height: 1.6;
+    color: #fff;
   }
-
+.about-me-text{
+  color: #fff;
+}
 .profile-img {
     width: 300px; /* Ajusta el tamaño según tus preferencias */
     height: 300px;
