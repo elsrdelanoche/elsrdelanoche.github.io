@@ -1,8 +1,23 @@
 /* Estilos opcionales para personalizar la apariencia de las tarjetas */
 .projects {
-    /* ... */
+  
   }
   
   .card {
-    /* ... */
+    background-color: #030D22;
+    border: 1px solid #333; /* Borde gris oscuro */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    
+  }
+
+  .card:hover {
+    /*transform: translateY(-5px); /* Elevación al pasar el cursor */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.4); /* Sombra suave */
+  }
+  .card h3 {
+    color: #fff;
+  }
+
+  .card p {
+    color: #fff;
   }
