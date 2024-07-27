@@ -17,8 +17,10 @@ function Education() {
   ];
 
   return (
-    <section id="education" className="education">
-      <h2>Educación</h2>
+    <section id="education" className="education container py-5">
+      <div class="text-center mb-5">
+          <h2 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Educación</span></h2>
+      </div>
       {education.map((edu, index) => (
         <div key={index} className="education-item">
           <h3>{edu.institution}</h3>

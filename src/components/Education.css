@@ -2,6 +2,14 @@
     padding: 20px;
   }
   
+  .education h3 {
+    color: #fff;
+  }
+
+  .education p {
+    color: #fff;
+  }
+
   .education-item {
     margin-bottom: 20px;
   }

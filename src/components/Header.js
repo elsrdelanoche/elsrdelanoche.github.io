@@ -4,7 +4,7 @@ import './Header.css';
 
 function Header() {
   return (
-    <header className="header px-5">
+    <header className="header container px-3">
       <div className="header-left">
         <h1 className="header-name">elsrdelanoche</h1>
       </div>

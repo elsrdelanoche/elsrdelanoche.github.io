@@ -18,8 +18,8 @@ function About() {
             </p>
             <div className="btn-group fs-2 gap-4">
               <a className="btn-link text-gradient" href="#!"><i className="bi bi-twitter"></i></a>
-              <a className="btn-link text-gradient" href="#!"><i className="bi bi-linkedin"></i></a>
-              <a className="btn-link text-gradient" href="#!"><i className="bi bi-github"></i></a>
+              <a className="btn-link text-gradient" href="https://www.linkedin.com/in/bautista-alfredo/"><i className="bi bi-linkedin"></i></a>
+              <a className="btn-link text-gradient" href="https://github.com/elsrdelanoche"><i className="bi bi-github"></i></a>
             </div>
             <div className="mt-4">
               <a className="btn btn-primary" href={document} target="_blank" rel="noopener noreferrer">RESUME BUTTON</a>

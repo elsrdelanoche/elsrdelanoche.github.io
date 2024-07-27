@@ -3,8 +3,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 8px;
-    /* background-color: #222; Color de fondo oscuro */
+    background-color: #030D22; 
     /* color: white; /* Color del texto claro */
+    position: fixed;
   }
   
   .header-logo {
@@ -16,3 +17,12 @@
     font-weight: bolder !important;
     color: rgba(30, 48, 243, 1) !important;
   }
+
+  .header.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+}
