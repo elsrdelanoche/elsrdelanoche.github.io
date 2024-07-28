@@ -1,13 +1,32 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './About.css';
-import Batman from '../../src/IMG/Alfredo.jpg'; // Asegúrate de importar la imagen correctamente
+import Batman from '../../src/IMG/perfil1.jpg';
+import Flash from '../../src/IMG/perfil2.jpg'; 
+import elsrdelanoche from '../../src/IMG/perfil3.jpg'; 
 import document from '../../src/documents/cvAlfredoBautista.pdf';
 
 function About() {
+  const images = [
+    Batman,
+    Flash, 
+    elsrdelanoche,
+  ];
+
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex(prevIndex => (prevIndex + 1) % images.length);   
+
+    }, 5000); // Cambia la imagen cada 3 segundos (3000 ms)
+
+    return () => clearInterval(interval); // Limpia el intervalo al desmontar
+  }, []);
+
   return (
     <div className="container about py-5">
       <div className="row align-items-center">
-        <div className="col-md-7 col-12 text-center text-md-start">
+      <div className="col-md-7 col-12 text-center text-md-start">
           <div className="about-me-text"> {/* Contenedor para el texto */}
             <div className="fs-3 fw-light text">Hello there...</div>
             <h1 className="display-3 fw-bolder mb-5">
@@ -27,9 +46,13 @@ function About() {
           </div>
         </div>
         <div className="col-md-5 col-12">
-          <div className="about-me-image d-flex justify-content-center mt-5 mt-md-0"> {/* Contenedor para la imagen */}
+          <div className="about-me-image d-flex justify-content-center mt-5 mt-md-0">
             <div className="profile bg-gradient-primary-to-secondary">
-              <img className="profile-img" src={Batman} alt="Profile" />
+              <img
+                className="profile-img"
+                src={images[currentImageIndex]} // Muestra la imagen actual
+                alt="Profile"
+              />
             </div>
           </div>
         </div>
