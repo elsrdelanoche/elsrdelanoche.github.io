@@ -4,16 +4,15 @@ import './Education.css';
 function Education() {
   const education = [
     {
-      institution: 'Universidad X',
-      degree: 'Licenciatura en Ciencias de la Computación',
-      date: '2018 - 2022',
+      institution: 'Escuela Superior de Computo',
+      degree: 'Ingeniería en Sistemas Computacionales',
+      date: '2021 - 2025',
     },
     {
-      institution: 'Instituto Y',
-      degree: 'Curso de Desarrollo Web Full Stack',
-      date: '2023',
+      institution: 'Centro de Estudios Cientificos y Tecnologicos No. 3',
+      degree: 'Manufactura Asistida por Computadora',
+      date: '2017 - 2021',
     },
-    // ... más formaciones académicas (si tienes)
   ];
 
   const halfIndex = Math.ceil(education.length / 2); // Índice para dividir el array por la mitad
@@ -35,7 +34,7 @@ function Education() {
         </div>
         <div className="col-md-6 px-5"> {/* Contenedor derecho */}
           {education.slice(halfIndex).map((edu, index) => (
-            <div key={index + halfIndex} className="education-item"> {/* Asegúrate de usar una clave única */}
+            <div key={index + halfIndex} className="education-item"> 
               <h3>{edu.institution}</h3>
               <p className="education-degree">{edu.degree}</p>
               <p className="education-date">{edu.date}</p>
