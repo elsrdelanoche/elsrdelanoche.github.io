@@ -8,83 +8,62 @@ import P5 from '../IMG/5.png';
 import P6 from '../IMG/6.png';
 import P7 from '../IMG/7.png';
 import P8 from '../IMG/8.png';
-import P9 from '../IMG/9.png';
-import P10 from '../IMG/10.png';
-import P11 from '../IMG/11.png';
-import P12 from '../IMG/12.png';
+import P9 from '../IMG/8.png';
 
 function Projects() {
   const projects = [
     {
-      title: 'Proyecto 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      image: P1, // Reemplaza con la ruta de tu imagen
-      githubLink: 'https://github.com/tu-usuario/proyecto1',
+      title: 'Analizador de Complejidad de Algoritmos',
+      description: 'Herramienta educativa que visualiza la complejidad computacional de algoritmos. Permite ejecutar algoritmos con diferentes tamaños de arreglos y compara las operaciones realizadas con curvas teóricas. Incluye selección de algoritmos como O(1), O(n), O(n log n), O(n²).',
+      image: P1,
+      githubLink: 'https://github.com/elsrdelanoche/ESCOM-ISC/tree/main/semester%2023-1/Analysis%20and%20Design%20of%20Algorithms/Analizador',
     },
     {
-      title: 'Proyecto 2',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      title: 'Simulación del Juego de la Vida',
+      description: 'Simulación del Juego de la Vida de Conway usando SFML en C++. Las células en una cuadrícula evolucionan según reglas simples. La simulación representa en esta ocasión el comportamiento del VIH, con células vivas en verde y muertas en negro. Implementación en C++ con inicialización aleatoria.',
       image: P2,
       githubLink: 'https://github.com/tu-usuario/proyecto2',
     },
     {
-      title: 'Analizador de algoritmos',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      title: 'Transformación de AFN a AFD y AFD desde archivo TXT',
+      description: 'Implementación de algoritmos en C++ para la conversión de automatas. Incluye visualización gráfica de los autómatas con Graphviz y evaluación de cadenas de entrada. Ideal para estudios y demostraciones de conceptos relacionados con los autómatas finitos, tanto deterministas como no deterministas.',
       image: P3,
       githubLink: 'https://github.com/tu-usuario/proyecto3',
     },
     {
-      title: 'Analizador de algoritmos',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      title: 'Pagina Web para contrataciones',
+      description: 'Como introducción en desarrollo web se muestran los diferentes paquetes ofrecidos, se da un formulario para almacenar en base de datos, calendarizar una fecha, y posteriormente enviar por correo una confirmación y ticket de la contratación.',
       image: P4,
       githubLink: 'https://github.com/tu-usuario/proyecto3',
     },
     {
-      title: 'Analizador de algoritmos',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      title: 'Maquina expendedora',
+      description: 'Haciendo uso de maquinas de estado, y llevandola a codigo en vhdl se desarrollo la logica para el funcionamiento de una maquina expendedora, mostrando su interfaz en una LCD conectada a un arduino.',
       image: P5,
       githubLink: 'https://github.com/tu-usuario/proyecto3',
     },
     {
-      title: 'Analizador de algoritmos',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      title: 'Sistema para la gestion de invitaciones',
+      description: '"RSVP Planner" es una plataforma online que ofrece creación y gestión de invitaciones electrónicas personalizadas para eventos. Proporciona herramientas intuitivas para diseñar invitaciones únicas, gestionar listas de invitados y confirmar asistencias, promoviendo la sostenibilidad y eficiencia.',
       image: P6,
       githubLink: 'https://github.com/tu-usuario/proyecto3',
     },
     {
-      title: 'Analizador de algoritmos',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      title: 'Aplicación Web para librería',
+      description: 'Sistema web para gestionar el inventario de una librería, optimizar las ventas en sucursal física a través de puntos de venta y venta online al cliente, verificadores de precio en tienda física.',
       image: P7,
       githubLink: 'https://github.com/tu-usuario/proyecto3',
     },
     {
-      title: 'Analizador de algoritmos',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      title: 'PONG',
+      description: 'Inspirado en el clasico juego de Atari, se desarrolló su versión en python con el uso de Python game, así el usuario puede jugar solo necesitando el cursor de su computador para enfrentar a la maquina.',
       image: P8,
-      githubLink: 'https://github.com/tu-usuario/proyecto3',
+      githubLink: 'https://github.com/elsrdelanoche/attari-pong-on-python',
     },
     {
-      title: 'Analizador de algoritmos',
+      title: '****************',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       image: P9,
-      githubLink: 'https://github.com/tu-usuario/proyecto3',
-    },
-    {
-      title: 'Analizador de algoritmos',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      image: P10,
-      githubLink: 'https://github.com/tu-usuario/proyecto3',
-    },
-    {
-      title: 'Analizador de algoritmos',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      image: P11,
-      githubLink: 'https://github.com/tu-usuario/proyecto3',
-    },
-    {
-      title: 'Analizador de algoritmos',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      image: P12,
       githubLink: 'https://github.com/tu-usuario/proyecto3',
     },
     // Agrega más proyectos aquí
