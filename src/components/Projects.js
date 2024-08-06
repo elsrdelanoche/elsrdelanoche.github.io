@@ -22,37 +22,37 @@ function Projects() {
       title: 'Simulación del Juego de la Vida',
       description: 'Simulación del Juego de la Vida de Conway usando SFML en C++. Las células en una cuadrícula evolucionan según reglas simples. La simulación representa en esta ocasión el comportamiento del VIH, con células vivas en verde y muertas en negro. Implementación en C++ con inicialización aleatoria.',
       image: P2,
-      githubLink: 'https://github.com/tu-usuario/proyecto2',
+      githubLink: 'https://github.com/elsrdelanoche/ESCOM-ISC/tree/main/semester%2023-2/Teoria%20de%20la%20Computaci%C3%B3n/AutomatasCelularesVIH',
     },
     {
       title: 'Transformación de AFN a AFD y AFD desde archivo TXT',
       description: 'Implementación de algoritmos en C++ para la conversión de automatas. Incluye visualización gráfica de los autómatas con Graphviz y evaluación de cadenas de entrada. Ideal para estudios y demostraciones de conceptos relacionados con los autómatas finitos, tanto deterministas como no deterministas.',
       image: P3,
-      githubLink: 'https://github.com/tu-usuario/proyecto3',
+      githubLink: 'https://github.com/elsrdelanoche/ESCOM-ISC/blob/main/semester%2023-2/Teoria%20de%20la%20Computaci%C3%B3n/Transformaci%C3%B3n%20Automatas/README.md',
     },
     {
       title: 'Pagina Web para contrataciones',
-      description: 'Como introducción en desarrollo web se muestran los diferentes paquetes ofrecidos, se da un formulario para almacenar en base de datos, calendarizar una fecha, y posteriormente enviar por correo una confirmación y ticket de la contratación.',
+      description: 'Como introducción en desarrollo web se muestran los diferentes paquetes ofrecidos por un Dj local, se da un formulario para almacenar en base de datos, calendarizar una fecha, y posteriormente enviar por correo una confirmación y ticket de la contratación.',
       image: P4,
-      githubLink: 'https://github.com/tu-usuario/proyecto3',
+      githubLink: 'https://github.com/elsrdelanoche/ESCOM-ISC/blob/main/semester%2023-2/Desarrollo%20web/Dj%20pinata/README.md',
     },
     {
       title: 'Maquina expendedora',
       description: 'Haciendo uso de maquinas de estado, y llevandola a codigo en vhdl se desarrollo la logica para el funcionamiento de una maquina expendedora, mostrando su interfaz en una LCD conectada a un arduino.',
       image: P5,
-      githubLink: 'https://github.com/tu-usuario/proyecto3',
+      githubLink: 'https://github.com/elsrdelanoche/ESCOM-ISC/tree/main/semester%2024-1/Dise%C3%B1o%20de%20Sistemas%20Digitales/Maquina%20Expendedora',
     },
     {
       title: 'Sistema para la gestion de invitaciones',
       description: '"RSVP Planner" es una plataforma online que ofrece creación y gestión de invitaciones electrónicas personalizadas para eventos. Proporciona herramientas intuitivas para diseñar invitaciones únicas, gestionar listas de invitados y confirmar asistencias, promoviendo la sostenibilidad y eficiencia.',
       image: P6,
-      githubLink: 'https://github.com/tu-usuario/proyecto3',
+      githubLink: 'https://github.com/elsrdelanoche/RSVP-Planner',
     },
     {
       title: 'Aplicación Web para librería',
       description: 'Sistema web para gestionar el inventario de una librería, optimizar las ventas en sucursal física a través de puntos de venta y venta online al cliente, verificadores de precio en tienda física.',
       image: P7,
-      githubLink: 'https://github.com/tu-usuario/proyecto3',
+      githubLink: 'https://github.com/LArkadia/-MazacuataStore-',
     },
     {
       title: 'PONG',
@@ -64,9 +64,9 @@ function Projects() {
       title: '****************',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
       image: P9,
-      githubLink: 'https://github.com/tu-usuario/proyecto3',
+      githubLink: 'https://github.com/elsrdelanoche',
     },
-    // Agrega más proyectos aquí
+    //Más proyectos aquí
   ];
 
   return (
