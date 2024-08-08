@@ -4,20 +4,22 @@
     align-items: center;
     padding: 8px;
     background-color: #030D22; 
-    /*position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    border-bottom: 1px solid #ddd;*/
   }
   
   .header-logo {
-    max-width: 50px; /* Ajusta el tamaño máximo del logo según tus necesidades */
+    max-width: 50px;
     height: auto;
+    border: none;
+  }
+  .header-logo:hover{
+    transform: scale(0.90); /* Reduce ligeramente el tamaño */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Añade una sombra */
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
   }
   
   .header-name {
     font-weight: bolder !important;
-    color: rgba(30, 48, 243, 1) !important;
+    color: #1e30f3 !important;
+    font-size: 28px;
   }

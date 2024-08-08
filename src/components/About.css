@@ -1,5 +1,5 @@
 .about {
-    /*padding: 20px;*/
+    padding: 20px;
   }
   
   .about h2 {
@@ -7,6 +7,7 @@
   }
   
   .about p {
+    font-size: 18px;
     line-height: 1.6;
     color: #fff;
   }
@@ -14,9 +15,9 @@
   color: #fff;
 }
 .profile-img {
-    width: 300px; /* Ajusta el tamaño según tus preferencias */
+    width: 300px; /* Tamaño Imagen */
     height: 300px;
-    border-radius: 50%; /* Esto hace que la imagen sea circular */
+    border-radius: 50%; /* Hace que sea circular */
     object-fit: cover; /* Asegura que la imagen cubra todo el espacio circular */
   }
 
@@ -37,7 +38,7 @@
   cursor: pointer;
   user-select: none;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 18px;
   border-radius: 0.375rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
@@ -45,7 +46,7 @@
 /* Estilos para el botón primario */
 .btn-primary {
   color: #fff;
-  background-color: rgba(30, 48, 243, 1);
+  background-color: #1e30f3 ;
   border: 1px solid rgba(30, 48, 243, 1);
 }
 

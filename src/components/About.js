@@ -27,20 +27,21 @@ function About() {
       <div className="row align-items-center">
         <div className="col-md-8 col-12 text-center text-md-start">
             <div className="about-me-text"> {/* Contenedor para el texto */}
-              <div className="fs-3 fw-light text">Hello there...</div>
-              <h1 className="display-3 fw-bolder mb-5">
-                <span className="text-gradient d-inline">I'm Alfredo Bautista</span>
+              <div className="fs-3 fw-light text mt-2">Hola...</div>
+              <h1 className="display-3 fw-bolder mb-2">
+                <span className="text-gradient d-inline">Soy Alfredo Bautista</span>
               </h1>
               <p>
-                I am a computer science student who enjoys understanding and exploring the potential of the technologies at my disposal. With great fascination, I have observed and learned from the advancements in this field, and I am eager to contribute by designing my own systems to address new challenges.
+              Estudiante de Ingeniería en Sistemas Computacionales, creativo, curioso y de pensamiento ágil. Apasionado por conocer y sumergirme en nuevas tecnologías, explorando sus alcances.
+Disfruto colaborando y aprendiendo con personas de otras disciplinas, compartiendo ideas, problemas y soluciones.
+Mis intereses profesionales apuntan a aplicar mis conocimientos en programación y el uso de otras herramientas para crear, diseñar y gestionar proyectos innovadores que impacten positivamente en la sociedad.
               </p>
               <div className="btn-group fs-2 gap-4">
-                <a className="btn-link text-gradient" href="#!"><i className="bi bi-twitter"></i></a>
                 <a className="btn-link text-gradient" href="https://www.linkedin.com/in/bautista-alfredo/"><i className="bi bi-linkedin"></i></a>
                 <a className="btn-link text-gradient" href="https://github.com/elsrdelanoche"><i className="bi bi-github"></i></a>
               </div>
               <div className="mt-4">
-                <a className="btn btn-primary" href={document} target="_blank" rel="noopener noreferrer">RESUME BUTTON</a>
+                <a className="btn btn-primary" href={document} target="_blank" rel="noopener noreferrer">RESUME</a>
               </div>
             </div>
         </div>

@@ -72,7 +72,7 @@ function Projects() {
   return (
     <section id="projects" className="projects container py-5">
       <div class="text-center mb-5">
-          <h2 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h2>
+          <h2 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Proyectos</span></h2>
       </div>
       <div className="row">
         {projects.map((project, index) => (
