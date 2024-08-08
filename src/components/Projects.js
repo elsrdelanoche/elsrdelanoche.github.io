@@ -8,7 +8,6 @@ import P5 from '../IMG/5.png';
 import P6 from '../IMG/6.png';
 import P7 from '../IMG/7.png';
 import P8 from '../IMG/8.png';
-import P9 from '../IMG/8.png';
 
 function Projects() {
   const projects = [
@@ -43,7 +42,7 @@ function Projects() {
       githubLink: 'https://github.com/elsrdelanoche/ESCOM-ISC/tree/main/semester%2024-1/Dise%C3%B1o%20de%20Sistemas%20Digitales/Maquina%20Expendedora',
     },
     {
-      title: 'Sistema para la gestion de invitaciones',
+      title: 'Sistema para la gestión de invitaciones',
       description: '"RSVP Planner" es una plataforma online que ofrece creación y gestión de invitaciones electrónicas personalizadas para eventos. Proporciona herramientas intuitivas para diseñar invitaciones únicas, gestionar listas de invitados y confirmar asistencias, promoviendo la sostenibilidad y eficiencia.',
       image: P6,
       githubLink: 'https://github.com/elsrdelanoche/RSVP-Planner',
@@ -60,13 +59,7 @@ function Projects() {
       image: P8,
       githubLink: 'https://github.com/elsrdelanoche/attari-pong-on-python',
     },
-    {
-      title: '****************',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      image: P9,
-      githubLink: 'https://github.com/elsrdelanoche',
-    },
-    //Más proyectos aquí
+    
   ];
 
   return (

@@ -15,19 +15,22 @@ function Skills() {
       <div class="text-center mb-5">
           <h2 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Habilidades</span></h2>
       </div>
-
-      {skills.map((skill, index) => (
-        <div key={index} className="skill-category ">
-          <h3>{skill.type}</h3>
-          <ul>
-            {skill.items.map((item, itemIndex) => (
-              <li key={itemIndex}>{item}</li>
-            ))}
-          </ul>
-        </div>
-      ))}
+      <div className="skill-grid">
+        {skills.map((skill, index) => (
+          <div key={index} className="skill-category">
+            <h3>{skill.type}</h3>
+            <ul>
+              {skill.items.map((item, itemIndex) => (
+                <li key={itemIndex}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
     </section>
   );
+
+  
 }
 
 export default Skills;
