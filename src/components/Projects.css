@@ -1,8 +1,5 @@
-/* Estilos opcionales para personalizar la apariencia de las tarjetas */
 .projects {
-  
-  }
-  
+
   .card {
     background-color: #030D22;
     border: 1px solid #333; /* Borde gris oscuro */
@@ -21,3 +18,5 @@
   .card p {
     color: #fff;
   }
+
+}  

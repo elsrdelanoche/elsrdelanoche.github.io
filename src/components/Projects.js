@@ -26,7 +26,7 @@ function Projects() {
     },
     {
       title: 'Transformación de AFN a AFD y AFD desde archivo TXT',
-      description: 'Implementación de algoritmos en C++ para la conversión de automatas. Incluye visualización gráfica de los autómatas con Graphviz y evaluación de cadenas de entrada. Ideal para estudios y demostraciones de conceptos relacionados con los autómatas finitos, tanto deterministas como no deterministas.',
+      description: 'Implementación de algoritmos en C++ para la conversión de autómatas. Incluye visualización gráfica de los autómatas con Graphviz y evaluación de cadenas de entrada. Ideal para estudios y demostraciones de conceptos relacionados con los autómatas finitos, tanto deterministas como no deterministas.',
       image: P3,
       githubLink: 'https://github.com/elsrdelanoche/ESCOM-ISC/blob/main/semester%2023-2/Teoria%20de%20la%20Computaci%C3%B3n/Transformaci%C3%B3n%20Automatas/README.md',
     },
@@ -38,7 +38,7 @@ function Projects() {
     },
     {
       title: 'Maquina expendedora',
-      description: 'Haciendo uso de maquinas de estado, y llevandola a codigo en vhdl se desarrollo la logica para el funcionamiento de una maquina expendedora, mostrando su interfaz en una LCD conectada a un arduino.',
+      description: 'Haciendo uso de maquinas de estado, y llevándola a código en vhdl se desarrollo la lógica para el funcionamiento de una maquina expendedora, mostrando su interfaz en una LCD conectada a un Arduino.',
       image: P5,
       githubLink: 'https://github.com/elsrdelanoche/ESCOM-ISC/tree/main/semester%2024-1/Dise%C3%B1o%20de%20Sistemas%20Digitales/Maquina%20Expendedora',
     },

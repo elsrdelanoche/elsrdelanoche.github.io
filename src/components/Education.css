@@ -12,8 +12,7 @@
 
   .education-item {
     margin-bottom: 20px;
-    /*background-color: #030D22;
-    border: 1px solid #333; /* Borde gris oscuro */
+    margin: 20px; 
   }
   
   .education-degree {
@@ -22,4 +21,10 @@
   
   .education-date {
     color: #777;
+  }
+
+  .card {
+    /*background-color: #030D22;*/
+    border: 1px solid #333; /* Borde gris oscuro */
+    
   }

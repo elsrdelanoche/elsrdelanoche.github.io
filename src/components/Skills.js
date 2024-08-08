@@ -3,12 +3,11 @@ import './Skills.css';
 
 function Skills() {
   const skills = [
-    { type: 'Lenguajes de programación', items: ['JavaScript', 'Python', 'Java'] },
-    { type: 'Frameworks y bibliotecas', items: ['React', 'Node.js', 'Express'] },
-    { type: 'Bases de datos', items: ['MongoDB', 'PostgreSQL'] },
-    { type: 'Herramientas', items: ['Git', 'Docker', 'VS Code'] },
-    { type: 'Habilidades blandas', items: ['Comunicación', 'Trabajo en equipo', 'Resolución de problemas'] },
-    // ... más categorías y habilidades
+    { type: 'Lenguajes de programación', items: ['C++/C - 2.5 años','VHDL - 1 año','PHP - 8 meses','Python - 8 Meses', 'Java - 3 meses'] },
+    { type: 'Frameworks y bibliotecas', items: ['React', 'Bootstrap','Tailwind','Node.js', 'Express'] },
+    { type: 'Herramientas', items: ['Git y Github', 'Linux', 'LaTex','HTML & CSS','MarkDown', 'Arduino', 'VS Code','Vim'] },
+    { type: 'Habilidades blandas', items: ['Comunicación', 'Trabajo en equipo', 'Resolución de problemas','Adaptabilidad','Pensamiento Crítico','Gestión de tiempo','Liderazgo',] },
+    
   ];
 
   return (
