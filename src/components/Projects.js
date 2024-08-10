@@ -55,7 +55,7 @@ function Projects() {
     },
     {
       title: 'PONG',
-      description: 'Inspirado en el clasico juego de Atari, se desarrolló su versión en python con el uso de Python game, así el usuario puede jugar solo necesitando el cursor de su computador para enfrentar a la maquina.',
+      description: 'Inspirado en el clásico juego de Atari, se desarrolló su versión en python con el uso de Pygame, así el usuario puede jugar solo necesitando el cursor de su computador para enfrentar a la maquina.',
       image: P8,
       githubLink: 'https://github.com/elsrdelanoche/atari-pong-on-python',
     },
