@@ -7,13 +7,13 @@ function Education() {
       institution: 'Escuela Superior de Computo',
       degree: 'Ingeniería en Sistemas Computacionales',
       date: '2021 - 2025',
-      description: 'Cursos relevantes: Introducción a la programación, Estructuras de Datos y Diseño de Algoritmos, POO, Bases de Datos, Desarrollo Web, Redes, Ingeniería de software, Análisis y diseño de sistemas y Sistemas en Chip.',
+      description: 'Cursos relevantes: Introducción a la programación, Estructuras de Datos y Diseño de Algoritmos, POO, Bases de Datos, Desarrollo Web, Redes, Ingeniería de software, Análisis y Diseño de Sistemas y Sistemas en Chip.',
     },
     {
       institution: 'Centro de Estudios Científicos y Tecnológicos No. 3',
       degree: 'Manufactura Asistida por Computadora',
       date: '2017 - 2021',
-      description: 'Cursos relevantes: Computación (Paquetería Office), Diseño asistido por computadora (SolidWorks) Eléctrica, Electronica, Robótica, Cálculo Diferencial, Cálculo Integral y Estadística,',
+      description: 'Cursos relevantes: Computación (Paquetería Office), Diseño asistido por computadora (SolidWorks) Eléctrica, Electronica, Robótica, Cálculo Diferencial, Cálculo Integral y Estadística.',
     },
   ];
 
@@ -29,7 +29,6 @@ function Education() {
       <div className="row">
         <div className="col-md-6 px-5">
           {/* Contenedor izquierdo */}
-          <div className="card">
             {education.slice(0, halfIndex).map((edu, index) => (
               <div key={index} className="education-item">
                 <h3 style={{ paddingBottom: '5px' }}>{edu.institution}</h3>
@@ -41,10 +40,8 @@ function Education() {
               </div>
             ))}
           </div>
-        </div>
         <div className="col-md-6 px-5">
           {/* Contenedor derecho */}
-          <div className="card">
             {education.slice(halfIndex).map((edu, index) => (
               <div key={index + halfIndex} className="education-item">
                 <h3 style={{ paddingBottom: '5px' }}>{edu.institution}</h3>
@@ -56,7 +53,6 @@ function Education() {
               </div>
             ))}
           </div>
-        </div>
       </div>
     </section>
   );
