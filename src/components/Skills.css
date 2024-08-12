@@ -98,18 +98,18 @@
   padding: 5px 0;
   position: absolute;
   z-index: 1;
-  bottom: 125%; /* Ajusta esto dependiendo de dónde quieras que aparezca */
+  bottom: 125%; /*Ubicación*/
   left: 50%;
-  margin-left: -70px; /* Ajusta según el ancho del tooltip */
+  margin-left: -70px; /* Ancho del tooltip */
   opacity: 0;
   transition: opacity 0.3s;
-  font-size: 14px; /* Ajusta el tamaño de fuente si es necesario */
+  font-size: 14px; /* Tamaño de fuente*/
 }
 
 .tooltip-text::after {
   content: "";
   position: absolute;
-  top: 100%; /* Coloca la flecha en la parte superior del tooltip */
+  top: 100%; /* flecha en la parte superior del tooltip */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;

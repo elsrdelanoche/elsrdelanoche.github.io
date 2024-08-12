@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../src/IMG/transparentLogo.png'; // Asegúrate de tener tu logo en la carpeta 'src'
+import logo from '../../src/IMG/transparentLogo.png';
 import './Header.css';
 
 function Header() {

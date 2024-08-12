@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css'; // Importa tu archivo de estilos
+import './Projects.css'; 
 import P1 from '../IMG/1.png';
 import P2 from '../IMG/2.png';
 import P3 from '../IMG/3.png';

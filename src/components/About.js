@@ -19,7 +19,7 @@ function About() {
       setCurrentImageIndex(prevIndex => (prevIndex + 1) % images.length);
     }, 5000); // Cambia la imagen cada 5 segundos 
 
-    return () => clearInterval(interval); // Limpia el intervalo al desmontar
+    return () => clearInterval(interval);
   }, [images.length]);
 
   return (
@@ -33,8 +33,8 @@ function About() {
               </h1>
               <p>
               Estudiante de Ingeniería en Sistemas Computacionales, creativo, curioso y de pensamiento ágil. Apasionado por conocer y sumergirme en nuevas tecnologías, explorando sus alcances.
-Disfruto colaborar y aprender con personas de otras disciplinas, compartiendo ideas, problemas y soluciones.
-Mis intereses profesionales apuntan a aplicar mis conocimientos en programación y el uso de otras herramientas para crear, diseñar y gestionar proyectos innovadores que impacten positivamente en la sociedad.
+              Disfruto colaborar y aprender con personas de otras disciplinas, compartiendo ideas, problemas y soluciones.
+              Mis intereses profesionales apuntan a aplicar mis conocimientos en programación y el uso de otras herramientas para crear, diseñar y gestionar proyectos innovadores que impacten positivamente en la sociedad.
               </p>
               <div className="btn-group fs-2 gap-4">
                 <a className="btn-link text-gradient" href="https://www.linkedin.com/in/bautista-alfredo/"><i className="bi bi-linkedin"></i></a>
