@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaReact, FaNodeJs, FaHtml5, FaPython, FaJava, FaGithub } from 'react-icons/fa';
-import { SiCplusplus, SiC, SiTailwindcss, SiLatex, SiVim, SiPhp, SiJavascript, SiBootstrap, SiGit, SiCss3, SiMarkdown, SiLinux, SiArduino } from 'react-icons/si';
+import { SiCplusplus, SiC, SiTailwindcss, SiGnubash, SiVim, SiPhp, SiJavascript, SiBootstrap, SiGit, SiCss3, SiMarkdown, SiLinux, SiArduino } from 'react-icons/si';
 import { VscVscode } from "react-icons/vsc";
 import { GiUsaFlag, GiMexico } from "react-icons/gi";
 import './Skills.css';
@@ -34,9 +34,9 @@ function Skills() {
         { icon: <FaGithub />, label: 'Github' },
         { icon: <FaHtml5 />, label: 'HTML' },
         { icon: <SiCss3 />, label: 'CSS' },
-        { icon: <SiLatex />, label: 'LaTex' },
         { icon: <SiMarkdown />, label: 'MarkDown' },
         { icon: <VscVscode />, label: 'VsCode' },
+        { icon: <SiGnubash />, label: 'Bash' },
         { icon: <SiLinux />, label: 'Linux' },
         { icon: <SiVim />, label: 'Vim' },
         { icon: <SiArduino />, label: 'Arduino' }
