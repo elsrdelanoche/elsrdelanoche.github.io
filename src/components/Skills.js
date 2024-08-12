@@ -11,7 +11,7 @@ function Skills() {
       type: 'Lenguajes de programación',
       items: [
         { icon: <SiCplusplus />, label: 'C++/C - 2.5 años' },
-        { icon: <SiC />, label: 'C - 8 meses' },
+        { icon: <SiC />, label: 'C - 2.5 años' },
         { icon: <SiPhp />, label: 'PHP - 8 meses' },
         { icon: <FaPython />, label: 'Python - 8 meses' },
         { icon: <FaJava />, label: 'Java - 3 meses' },
