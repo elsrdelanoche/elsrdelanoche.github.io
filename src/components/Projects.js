@@ -8,6 +8,7 @@ import P5 from '../IMG/5.png';
 import P6 from '../IMG/6.png';
 import P7 from '../IMG/7.png';
 import P8 from '../IMG/8.png';
+import P9 from '../IMG/9.png';
 
 function Projects() {
   const projects = [
@@ -59,7 +60,12 @@ function Projects() {
       image: P8,
       githubLink: 'https://github.com/elsrdelanoche/atari-pong-on-python',
     },
-    
+    {
+      title: 'Reconocimiento de Dígitos Manuscritos',
+      description: 'Permite al usuario dibujar un dígito, predecirlo, y, si es correcto, reentrenar el modelo incrementalmente, contribuyendo al mismo tiempo a mi propio dataset. Haciendo uso de conceptos básicos de Inteligencia Artificial  y una red neuronal entrenada en el dataset MNIST. ',
+      image: P9,
+      githubLink: 'https://github.com/elsrdelanoche/deteccion-digitos-manuscrito',
+    },
   ];
 
   return (
