@@ -1,70 +1,133 @@
-# GitHub Codespaces ♥️ React
+# Alfredo Bautista — Portfolio
 
-Welcome to your shiny new Codespace running React! We've got everything fired up and running for you to explore React.
+> Dark Tech portfolio built with React + Vite + Tailwind CSS + Framer Motion.
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+Live: **https://elsrdelanoche.github.io/resume/**
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+---
 
-This project was bootstrapped for you with [Vite](https://vitejs.dev/).
+## 🚀 Quick Start (Local / Codespaces)
 
-## Available Scripts
+```bash
+# 1. Install dependencies
+npm install
 
-In the project directory, you can run:
+# 2. Start dev server
+npm run dev
 
-### `npm start`
+# 3. Open http://localhost:5173/resume/
+```
 
-We've already run this for you in the `Codespaces: server` terminal window below. If you need to stop the server for any reason you can just run `npm start` again to bring it back online.
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000/](http://localhost:3000/) in the built-in Simple Browser (`Cmd/Ctrl + Shift + P > Simple Browser: Show`) to view your running application.
+## 📦 Build & Deploy
 
-The page will reload automatically when you make changes.\
-You may also see any lint errors in the console.
+### Manual deploy (gh-pages)
+```bash
+npm run build
+npm run deploy
+```
 
-### `npm test`
+### Automatic deploy (GitHub Actions)
+Push to `main` → GitHub Actions builds and deploys automatically.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Setup once:**
+1. Go to your repo → Settings → Pages
+2. Set Source to: **GitHub Actions**
+3. Push any commit to `main`
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🗂 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+portfolio/
+├── public/
+│   ├── images/          ← All project & profile images
+│   ├── resume_en.pdf    ← English CV (replace with real file)
+│   └── resume_es.pdf    ← Spanish CV (replace with real file)
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx       ← Navigation + lang toggle + CV download
+│   │   ├── Hero.jsx         ← Landing section with particle bg
+│   │   ├── ProjectCard.jsx  ← Projects grid + featured thesis
+│   │   ├── SkillsGrid.jsx   ← Skills with tech icons
+│   │   ├── Experience.jsx   ← Timeline (work / education / courses)
+│   │   └── Footer.jsx       ← Contact + footer
+│   ├── hooks/
+│   │   └── useTypingEffect.js  ← Typing animation hook
+│   ├── data.json           ← ALL content (bilingual EN/ES)
+│   ├── App.jsx             ← Root: language state + layout
+│   ├── main.jsx
+│   └── index.css
+├── .github/workflows/
+│   └── deploy.yml          ← CI/CD to GitHub Pages
+├── tailwind.config.js
+├── vite.config.js
+└── package.json
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-## Learn More
+## ✏️ How to Update Content
 
-You can learn more in the [Vite documentation](https://vitejs.dev/guide/).
+**Everything lives in `src/data.json`** — edit it to update any text, link, or project.
 
-To learn Vitest, a Vite-native testing framework, go to [Vitest documentation](https://vitest.dev/guide/)
+### Add a project
+```json
+{
+  "id": 10,
+  "image": "images/my-screenshot.png",
+  "github": "https://github.com/...",
+  "en": { "title": "My Project", "description": "...", "tags": ["Python"] },
+  "es": { "title": "Mi Proyecto", "description": "...", "tags": ["Python"] }
+}
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Replace CV files
+Just drop `resume_en.pdf` and `resume_es.pdf` into the `public/` folder.
 
-### Code Splitting
+### Update profile image
+Replace `public/images/perfil2.png` or change the path in `data.json`:
+```json
+"profileImage": "images/your-photo.jpg"
+```
 
-This section has moved here: [https://sambitsahoo.com/blog/vite-code-splitting-that-works.html](https://sambitsahoo.com/blog/vite-code-splitting-that-works.html)
+---
 
-### Analyzing the Bundle Size
+## 🎨 Design System
 
-This section has moved here: [https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer](https://github.com/btd/rollup-plugin-visualizer#rollup-plugin-visualizer)
+| Token | Value |
+|-------|-------|
+| Background | `#030712` (void-900) |
+| Surface | `#0f172a` (surface-900) |
+| Accent | `#0ea5e9` (electric-500) |
+| Text Primary | `#f8fafc` |
+| Text Muted | `#64748b` |
+| Font Display | Syne |
+| Font Body | Plus Jakarta Sans |
+| Font Mono | JetBrains Mono |
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf](https://dev.to/hamdankhan364/simplifying-progressive-web-app-pwa-development-with-vite-a-beginners-guide-38cf)
+## 📱 Responsive
 
-### Advanced Configuration
+Tested on:
+- Samsung Galaxy S23 (360×780)
+- iPhone 14 (390×844)
+- iPad (768px)
+- Desktop (1280px+)
 
-This section has moved here: [https://vitejs.dev/guide/build.html#advanced-base-options](https://vitejs.dev/guide/build.html#advanced-base-options)
+---
 
-### Deployment
+## 🔧 Stack
 
-This section has moved here: [https://vitejs.dev/guide/build.html](https://vitejs.dev/guide/build.html)
+- **React 18** + **Vite 5**
+- **Tailwind CSS 3** — custom dark tech palette
+- **Framer Motion 11** — animations & transitions
+- **Lucide React** — UI icons
+- **JetBrains Mono** + **Syne** + **Plus Jakarta Sans** — Google Fonts
 
-### Troubleshooting
+---
 
-This section has moved here: [https://vitejs.dev/guide/troubleshooting.html](https://vitejs.dev/guide/troubleshooting.html)
+*Engineer with an artist's soul. Open source. No limits.*

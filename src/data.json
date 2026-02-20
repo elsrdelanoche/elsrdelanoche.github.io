@@ -1,0 +1,505 @@
+{
+  "profile": {
+    "name": "Alfredo Bautista Ríos",
+    "handle": "elsrdelanoche",
+    "github": "https://github.com/elsrdelanoche",
+    "linkedin": "https://www.linkedin.com/in/bautista-alfredo",
+    "email": "alfredobr587@gmail.com",
+    "location": "Mexico City, MX",
+    "profileImage": "images/perfil2.png",
+    "logo": "images/transparentLogo.png",
+    "en": {
+      "title": "Computer Systems Engineer",
+      "focus": "Junior BI / Data Engineer · ML · Linux & Open-Source",
+      "tagline": "Engineer with an artist's soul.",
+      "bio": "Computer Systems Engineering student (final semester, ESCOM – IPN). Motivated by building technological solutions that integrate data, software, and AI to solve real-world problems. Passionate about understanding systems in depth—from architecture to implementation—and turning ideas into functional, maintainable tools. I believe technology should be the engine that pushes us beyond our limits.",
+      "downloadCV": "Download CV",
+      "cvFile": "resume_en.pdf"
+    },
+    "es": {
+      "title": "Ingeniero en Sistemas Computacionales",
+      "focus": "Junior BI / Ingeniero de Datos · ML · Linux & Open-Source",
+      "tagline": "Ingeniero con alma de artista.",
+      "bio": "Estudiante de último semestre de Ingeniería en Sistemas Computacionales en ESCOM – IPN. Motivado por construir soluciones tecnológicas que integren datos, software e IA para resolver problemas del mundo real. Apasionado por entender los sistemas a profundidad—desde la arquitectura hasta la implementación—y convertir ideas en herramientas funcionales y mantenibles. Convencido de que la tecnología debe ser el motor para superar nuestros límites.",
+      "downloadCV": "Descargar CV",
+      "cvFile": "resume_es.pdf"
+    }
+  },
+
+  "nav": {
+    "en": {
+      "about": "About",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience",
+      "contact": "Contact"
+    },
+    "es": {
+      "about": "Sobre mí",
+      "projects": "Proyectos",
+      "skills": "Habilidades",
+      "experience": "Experiencia",
+      "contact": "Contacto"
+    }
+  },
+
+  "thesis": {
+    "id": "thesis",
+    "featured": true,
+    "image": "images/perfil1.png",
+    "github": "https://elsrdelanoche.github.io",
+    "en": {
+      "label": "THESIS PROJECT",
+      "title": "Quiroscopio",
+      "subtitle": "Wearable Gesture Recognition System",
+      "description": "Wearable system using a microcontroller and inertial sensors to recognize hand gestures in real time. Implemented embedded firmware, BLE communication, data acquisition pipeline, and a classical ML model to classify gestures—integrated with a Linux-based system to trigger automated actions and background daemons.",
+      "tags": ["C / Embedded", "BLE", "Machine Learning", "Linux", "Raspberry Pi", "Arduino"]
+    },
+    "es": {
+      "label": "PROYECTO DE TESIS",
+      "title": "Quiroscopio",
+      "subtitle": "Sistema Wearable de Reconocimiento de Gestos",
+      "description": "Sistema wearable con microcontrolador y sensores inerciales para reconocer gestos de la mano en tiempo real. Incluye firmware embebido, comunicación BLE, pipeline de adquisición de datos y un modelo de ML clásico para clasificar gestos, integrado con un sistema Linux para disparar acciones automatizadas y servicios en segundo plano.",
+      "tags": ["C / Embebido", "BLE", "Machine Learning", "Linux", "Raspberry Pi", "Arduino"]
+    }
+  },
+
+  "projects": [
+    {
+      "id": 1,
+      "image": "images/9.png",
+      "github": "https://github.com/elsrdelanoche/deteccion-digitos-manuscrito",
+      "en": {
+        "title": "Handwritten Digit Recognition",
+        "description": "Lets the user draw a digit, predict it, and incrementally retrain the model on correct predictions—contributing to a custom dataset. Built with a neural network trained on MNIST.",
+        "tags": ["Python", "AI", "Neural Networks", "MNIST"]
+      },
+      "es": {
+        "title": "Reconocimiento de Dígitos Manuscritos",
+        "description": "El usuario dibuja un dígito, lo predice y, si es correcto, reentrena el modelo incrementalmente, contribuyendo a un dataset propio. Red neuronal entrenada en MNIST.",
+        "tags": ["Python", "IA", "Redes Neuronales", "MNIST"]
+      }
+    },
+    {
+      "id": 2,
+      "image": "images/6.png",
+      "github": "https://github.com/elsrdelanoche/RSVP-Planner",
+      "en": {
+        "title": "RSVP Planner",
+        "description": "Online platform for creating and managing personalized electronic event invitations. Provides tools to design unique invitations, manage guest lists, and confirm attendance.",
+        "tags": ["PHP", "MySQL", "HTML/CSS", "Full Stack"]
+      },
+      "es": {
+        "title": "RSVP Planner",
+        "description": "Plataforma online para crear y gestionar invitaciones electrónicas personalizadas para eventos. Diseño de invitaciones únicas, gestión de listas de invitados y confirmación de asistencia.",
+        "tags": ["PHP", "MySQL", "HTML/CSS", "Full Stack"]
+      }
+    },
+    {
+      "id": 3,
+      "image": "images/7.png",
+      "github": "https://github.com/LArkadia/-MazacuataStore-",
+      "en": {
+        "title": "Bookstore Web App",
+        "description": "Web system to manage a bookstore inventory, optimize in-store sales via POS, enable online sales, and provide in-store price checkers for customers.",
+        "tags": ["PHP", "MySQL", "HTML/CSS", "E-commerce"]
+      },
+      "es": {
+        "title": "Aplicación Web para Librería",
+        "description": "Sistema web para gestionar el inventario de una librería, punto de venta en tienda física, venta online y verificadores de precio para clientes.",
+        "tags": ["PHP", "MySQL", "HTML/CSS", "E-commerce"]
+      }
+    },
+    {
+      "id": 4,
+      "image": "images/1.png",
+      "github": "https://github.com/elsrdelanoche/ESCOM-ISC/tree/main/semester%2023-1/Analysis%20and%20Design%20of%20Algorithms/Analizador",
+      "en": {
+        "title": "Algorithm Complexity Analyzer",
+        "description": "Educational tool that visualizes the computational complexity of algorithms. Run algorithms with different array sizes and compare actual operations against theoretical curves (O(1), O(n), O(n log n), O(n²)).",
+        "tags": ["C++", "Algorithms", "Data Structures", "Visualization"]
+      },
+      "es": {
+        "title": "Analizador de Complejidad de Algoritmos",
+        "description": "Herramienta educativa que visualiza la complejidad computacional de algoritmos. Compara operaciones reales con curvas teóricas: O(1), O(n), O(n log n), O(n²).",
+        "tags": ["C++", "Algoritmos", "Estructuras de Datos", "Visualización"]
+      }
+    },
+    {
+      "id": 5,
+      "image": "images/2.png",
+      "github": "https://github.com/elsrdelanoche/ESCOM-ISC/tree/main/semester%2023-2/Teoria%20de%20la%20Computaci%C3%B3n/AutomatasCelularesVIH",
+      "en": {
+        "title": "Game of Life — HIV Simulation",
+        "description": "Conway's Game of Life simulation built with SFML/C++. Cells evolve on a grid representing HIV behavior: living cells in green, dead in black. Includes random initialization.",
+        "tags": ["C++", "SFML", "Simulation", "Cellular Automata"]
+      },
+      "es": {
+        "title": "Juego de la Vida — Simulación VIH",
+        "description": "Simulación del Juego de la Vida de Conway con SFML/C++. Las células en una cuadrícula representan el comportamiento del VIH: células vivas en verde, muertas en negro.",
+        "tags": ["C++", "SFML", "Simulación", "Autómatas Celulares"]
+      }
+    },
+    {
+      "id": 6,
+      "image": "images/3.png",
+      "github": "https://github.com/elsrdelanoche/ESCOM-ISC/blob/main/semester%2023-2/Teoria%20de%20la%20Computaci%C3%B3n/Transformaci%C3%B3n%20Automatas/README.md",
+      "en": {
+        "title": "NFA to DFA Converter",
+        "description": "C++ implementation for converting non-deterministic finite automata to deterministic ones. Includes Graphviz-based graphical visualization and input string evaluation.",
+        "tags": ["C++", "Theory of Computation", "Graphviz", "Automata"]
+      },
+      "es": {
+        "title": "Transformación de AFN a AFD",
+        "description": "Implementación en C++ para convertir autómatas finitos no deterministas a deterministas. Visualización gráfica con Graphviz y evaluación de cadenas de entrada.",
+        "tags": ["C++", "Teoría de Cómputo", "Graphviz", "Autómatas"]
+      }
+    },
+    {
+      "id": 7,
+      "image": "images/4.png",
+      "github": "https://github.com/elsrdelanoche/ESCOM-ISC/blob/main/semester%2023-2/Desarrollo%20web/Dj%20pinata/README.md",
+      "en": {
+        "title": "DJ Booking Website",
+        "description": "Web page showcasing service packages for a local DJ. Features a contact form with database storage, date scheduling via calendar, and email confirmation with booking ticket.",
+        "tags": ["PHP", "MySQL", "HTML/CSS", "Web Dev"]
+      },
+      "es": {
+        "title": "Página Web para DJ",
+        "description": "Muestra los paquetes de servicios de un DJ local. Formulario con base de datos, calendarización de fechas y envío de correo de confirmación con ticket de contratación.",
+        "tags": ["PHP", "MySQL", "HTML/CSS", "Desarrollo Web"]
+      }
+    },
+    {
+      "id": 8,
+      "image": "images/5.png",
+      "github": "https://github.com/elsrdelanoche/ESCOM-ISC/tree/main/semester%2024-1/Dise%C3%B1o%20de%20Sistemas%20Digitales/Maquina%20Expendedora",
+      "en": {
+        "title": "Vending Machine (VHDL)",
+        "description": "State-machine-based vending machine logic implemented in VHDL, with the interface displayed on an LCD connected to an Arduino.",
+        "tags": ["VHDL", "Arduino", "Digital Systems", "State Machines"]
+      },
+      "es": {
+        "title": "Máquina Expendedora (VHDL)",
+        "description": "Lógica de máquina expendedora basada en máquinas de estado implementada en VHDL, con interfaz mostrada en LCD conectada a Arduino.",
+        "tags": ["VHDL", "Arduino", "Sistemas Digitales", "Máquinas de Estado"]
+      }
+    },
+    {
+      "id": 9,
+      "image": "images/8.png",
+      "github": "https://github.com/elsrdelanoche/atari-pong-on-python",
+      "en": {
+        "title": "Atari PONG (Python)",
+        "description": "Python remake of the classic Atari PONG built with Pygame. Single-player mode where you control the paddle with your cursor to face the computer.",
+        "tags": ["Python", "Pygame", "Game Dev"]
+      },
+      "es": {
+        "title": "PONG de Atari (Python)",
+        "description": "Remake en Python del clásico PONG de Atari usando Pygame. Modo un jugador donde controlas la paleta con el cursor para enfrentarte a la máquina.",
+        "tags": ["Python", "Pygame", "Desarrollo de Juegos"]
+      }
+    }
+  ],
+
+  "skills": {
+    "en": {
+      "sectionTitle": "Skills & Tools",
+      "categories": [
+        {
+          "name": "Programming Languages",
+          "icon": "Code2",
+          "items": [
+            { "name": "Python", "icon": "python" },
+            { "name": "C / C++", "icon": "cplusplus" },
+            { "name": "SQL", "icon": "postgresql" },
+            { "name": "PHP", "icon": "php" },
+            { "name": "Bash", "icon": "gnubash" },
+            { "name": "JavaScript", "icon": "javascript" }
+          ]
+        },
+        {
+          "name": "Data & BI",
+          "icon": "BarChart3",
+          "items": [
+            { "name": "SAS", "icon": "sas" },
+            { "name": "Databricks", "icon": "databricks" },
+            { "name": "Power BI", "icon": "powerbi" },
+            { "name": "ETL Pipelines", "icon": "shuffle" },
+            { "name": "Data Modeling", "icon": "database" },
+            { "name": "EDA", "icon": "linechart" }
+          ]
+        },
+        {
+          "name": "Systems & Dev Tools",
+          "icon": "Terminal",
+          "items": [
+            { "name": "Linux", "icon": "linux" },
+            { "name": "Git / GitHub", "icon": "github" },
+            { "name": "Raspberry Pi", "icon": "raspberrypi" },
+            { "name": "Arduino", "icon": "arduino" },
+            { "name": "GTK", "icon": "gtk" },
+            { "name": "HTML/CSS", "icon": "html5" }
+          ]
+        },
+        {
+          "name": "Machine Learning",
+          "icon": "Brain",
+          "items": [
+            { "name": "Supervised Learning", "icon": "supervised" },
+            { "name": "Feature Engineering", "icon": "features" },
+            { "name": "Model Evaluation", "icon": "evaluation" },
+            { "name": "Scikit-learn", "icon": "scikitlearn" },
+            { "name": "NumPy", "icon": "numpy" },
+            { "name": "Pandas", "icon": "pandas" }
+          ]
+        },
+        {
+          "name": "Languages",
+          "icon": "Globe2",
+          "items": [
+            { "name": "Spanish", "level": "Native", "icon": "flag-mx" },
+            { "name": "English", "level": "B2 → C1", "icon": "flag-us" }
+          ]
+        },
+        {
+          "name": "Methodologies",
+          "icon": "Layers",
+          "items": [
+            { "name": "Scrum", "icon": "scrum" },
+            { "name": "Kanban", "icon": "kanban" },
+            { "name": "Waterfall", "icon": "waterfall" },
+            { "name": "Tech Communication", "icon": "comm" },
+            { "name": "Stakeholder Mgmt", "icon": "stakeholder" },
+            { "name": "Self-learning", "icon": "selflearn" }
+          ]
+        }
+      ]
+    },
+    "es": {
+      "sectionTitle": "Habilidades y Herramientas",
+      "categories": [
+        {
+          "name": "Lenguajes de Programación",
+          "icon": "Code2",
+          "items": [
+            { "name": "Python", "icon": "python" },
+            { "name": "C / C++", "icon": "cplusplus" },
+            { "name": "SQL", "icon": "postgresql" },
+            { "name": "PHP", "icon": "php" },
+            { "name": "Bash", "icon": "gnubash" },
+            { "name": "JavaScript", "icon": "javascript" }
+          ]
+        },
+        {
+          "name": "Datos & BI",
+          "icon": "BarChart3",
+          "items": [
+            { "name": "SAS", "icon": "sas" },
+            { "name": "Databricks", "icon": "databricks" },
+            { "name": "Power BI", "icon": "powerbi" },
+            { "name": "Pipelines ETL", "icon": "shuffle" },
+            { "name": "Modelado de Datos", "icon": "database" },
+            { "name": "AED", "icon": "linechart" }
+          ]
+        },
+        {
+          "name": "Sistemas & Herramientas",
+          "icon": "Terminal",
+          "items": [
+            { "name": "Linux", "icon": "linux" },
+            { "name": "Git / GitHub", "icon": "github" },
+            { "name": "Raspberry Pi", "icon": "raspberrypi" },
+            { "name": "Arduino", "icon": "arduino" },
+            { "name": "GTK", "icon": "gtk" },
+            { "name": "HTML/CSS", "icon": "html5" }
+          ]
+        },
+        {
+          "name": "Machine Learning",
+          "icon": "Brain",
+          "items": [
+            { "name": "Aprendizaje Supervisado", "icon": "supervised" },
+            { "name": "Ingeniería de Features", "icon": "features" },
+            { "name": "Evaluación de Modelos", "icon": "evaluation" },
+            { "name": "Scikit-learn", "icon": "scikitlearn" },
+            { "name": "NumPy", "icon": "numpy" },
+            { "name": "Pandas", "icon": "pandas" }
+          ]
+        },
+        {
+          "name": "Idiomas",
+          "icon": "Globe2",
+          "items": [
+            { "name": "Español", "level": "Nativo", "icon": "flag-mx" },
+            { "name": "Inglés", "level": "B2 → C1", "icon": "flag-us" }
+          ]
+        },
+        {
+          "name": "Metodologías",
+          "icon": "Layers",
+          "items": [
+            { "name": "Scrum", "icon": "scrum" },
+            { "name": "Kanban", "icon": "kanban" },
+            { "name": "Cascada", "icon": "waterfall" },
+            { "name": "Com. Técnica", "icon": "comm" },
+            { "name": "Gestión de Stakeholders", "icon": "stakeholder" },
+            { "name": "Autoaprendizaje", "icon": "selflearn" }
+          ]
+        }
+      ]
+    }
+  },
+
+  "experience": {
+    "en": {
+      "sectionTitle": "Experience & Education",
+      "workLabel": "Work",
+      "educationLabel": "Education",
+      "coursesLabel": "Certifications",
+      "items": [
+        {
+          "type": "work",
+          "role": "BI Trainee",
+          "company": "Profuturo S.A. de C.V.",
+          "url": "https://www.profuturo.com.mx/",
+          "period": "Feb 2025 – Present",
+          "highlights": [
+            "Designed/redesigned data models and mappings for multiple business units using SAS",
+            "Built ETL processes, automation workflows, dashboards, and SQL queries across different data volume scenarios",
+            "Integrated and consumed APIs in analytical and operational workflows; collaborated with technical and non-technical stakeholders",
+            "Hands-on training: Databricks, Python, SQL, Power BI"
+          ]
+        },
+        {
+          "type": "education",
+          "role": "B.Sc. Computer Systems Engineering",
+          "company": "ESCOM – IPN",
+          "url": "https://www.escom.ipn.mx/",
+          "period": "Aug 2021 – Jan 2026",
+          "highlights": [
+            "Strong foundations: data structures, algorithms, databases, software engineering, AI",
+            "Relevant coursework: NLP, computer vision & image analysis, native mobile applications",
+            "Competitive programming club (algorithmic problem solving)"
+          ]
+        },
+        {
+          "type": "education",
+          "role": "Technical Degree in Computer-Aided Manufacturing",
+          "company": "CECyT 3 – IPN",
+          "url": "https://www.ipn.mx/",
+          "period": "Aug 2017 – Jun 2021",
+          "highlights": [
+            "Applied engineering fundamentals with emphasis on automation and industrial processes",
+            "Strong academic performance"
+          ]
+        },
+        {
+          "type": "course",
+          "role": "Samsung Innovation Campus — AI & Leadership",
+          "company": "UDEM / Samsung",
+          "period": "2024",
+          "highlights": [
+            "AI foundations, mathematics for data science, exploratory data analysis, machine learning",
+            "Technical leadership, teamwork, negotiation, and effective communication"
+          ]
+        },
+        {
+          "type": "course",
+          "role": "Google Cloud Computing Foundations",
+          "company": "Google Cloud Skills Boost",
+          "url": "https://www.cloudskillsboost.google/",
+          "period": "2024"
+        },
+        {
+          "type": "course",
+          "role": "LPI Linux Essentials",
+          "company": "Linux Professional Institute",
+          "url": "https://www.lpi.org/",
+          "period": "2024"
+        }
+      ]
+    },
+    "es": {
+      "sectionTitle": "Experiencia & Educación",
+      "workLabel": "Trabajo",
+      "educationLabel": "Educación",
+      "coursesLabel": "Certificaciones",
+      "items": [
+        {
+          "type": "work",
+          "role": "BI Trainee",
+          "company": "Profuturo S.A. de C.V.",
+          "url": "https://www.profuturo.com.mx/",
+          "period": "Feb 2025 – Presente",
+          "highlights": [
+            "Diseño/rediseño de modelos de datos y mapeos para múltiples unidades de negocio con SAS",
+            "Construcción de procesos ETL, flujos de automatización, dashboards y consultas SQL en diferentes escenarios de volumen de datos",
+            "Integración y consumo de APIs en flujos analíticos y operativos; colaboración con stakeholders técnicos y no técnicos",
+            "Formación práctica: Databricks, Python, SQL, Power BI"
+          ]
+        },
+        {
+          "type": "education",
+          "role": "Ing. en Sistemas Computacionales",
+          "company": "ESCOM – IPN",
+          "url": "https://www.escom.ipn.mx/",
+          "period": "Ago 2021 – Ene 2026",
+          "highlights": [
+            "Bases sólidas: estructuras de datos, algoritmos, bases de datos, ingeniería de software, IA",
+            "Materias relevantes: PLN, visión computacional y análisis de imágenes, aplicaciones móviles nativas",
+            "Club de programación competitiva (resolución de problemas algorítmicos)"
+          ]
+        },
+        {
+          "type": "education",
+          "role": "Técnico en Manufactura Asistida por Computadora",
+          "company": "CECyT 3 – IPN",
+          "url": "https://www.ipn.mx/",
+          "period": "Ago 2017 – Jun 2021",
+          "highlights": [
+            "Fundamentos de ingeniería aplicada con énfasis en automatización y procesos industriales",
+            "Alto desempeño académico"
+          ]
+        },
+        {
+          "type": "course",
+          "role": "Samsung Innovation Campus — IA y Liderazgo",
+          "company": "UDEM / Samsung",
+          "period": "2024",
+          "highlights": [
+            "Fundamentos de IA, matemáticas para ciencia de datos, análisis exploratorio de datos, machine learning",
+            "Liderazgo técnico, trabajo en equipo, negociación y comunicación efectiva"
+          ]
+        },
+        {
+          "type": "course",
+          "role": "Google Cloud Computing Foundations",
+          "company": "Google Cloud Skills Boost",
+          "url": "https://www.cloudskillsboost.google/",
+          "period": "2024"
+        },
+        {
+          "type": "course",
+          "role": "LPI Linux Essentials",
+          "company": "Linux Professional Institute",
+          "url": "https://www.lpi.org/",
+          "period": "2024"
+        }
+      ]
+    }
+  },
+
+  "contact": {
+    "en": {
+      "sectionTitle": "Let's Connect",
+      "subtitle": "Open to junior BI/Data Engineering roles and interesting projects.",
+      "emailLabel": "Send an email"
+    },
+    "es": {
+      "sectionTitle": "Hablemos",
+      "subtitle": "Abierto a posiciones junior de BI/Ingeniería de Datos y proyectos interesantes.",
+      "emailLabel": "Enviar un correo"
+    }
+  }
+}
