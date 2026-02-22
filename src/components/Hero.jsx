@@ -89,8 +89,8 @@ export default function Hero({ lang, data }) {
   const p = profile[lang]
 
   const typingTexts = lang === 'en'
-    ? ['Junior BI Engineer.', 'Data Engineer.', 'Open-Source Enthusiast.', 'Linux Lover.', 'Maker & Builder.']
-    : ['Junior BI Engineer.', 'Ingeniero de Datos.', 'Entusiasta del Open-Source.', 'Amante de Linux.', 'Creador de cosas.']
+    ? ['Software Engineer.', 'Data Engineer.', 'Open-Source/AI Enthusiast.']
+    : ['Ingeniero de Software.', 'Ingeniero de Datos.', 'Entusiasta del Open-Source/IA.']
 
   const typingText = useTypingEffect(typingTexts, 65, 2200)
 
@@ -177,7 +177,7 @@ export default function Hero({ lang, data }) {
               </span>
               <span className="flex items-center gap-1.5">
                 <span className="text-electric-400">🎓</span>
-                {lang === 'en' ? 'ESCOM – IPN, Final Semester' : 'ESCOM – IPN, Último Semestre'}
+                {lang === 'en' ? 'ESCOM – IPN, Graduate' : 'ESCOM – IPN, Egresado}
               </span>
               <span className="flex items-center gap-1.5">
                 <span className="text-electric-400">💼</span>
