@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, Download } from 'lucide-react'
 
-const BASE = '/resume'
+const BASE = import.meta.env.BASE_URL.replace(//$/, "")
 
 export default function Navbar({ lang, toggleLang, data }) {
   const [scrolled, setScrolled] = useState(false)

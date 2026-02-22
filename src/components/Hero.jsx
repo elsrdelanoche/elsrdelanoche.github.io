@@ -3,7 +3,7 @@ import { motion } from 'framer-motion'
 import { Download, ArrowDown, Github, Linkedin, Mail } from 'lucide-react'
 import { useTypingEffect } from '../hooks/useTypingEffect'
 
-const BASE = '/resume'
+const BASE = import.meta.env.BASE_URL.replace(//$/, "")
 
 // Particle canvas background
 function ParticleCanvas() {

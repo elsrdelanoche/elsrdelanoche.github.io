@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Github, ExternalLink, Star } from 'lucide-react'
 
-const BASE = '/resume'
+const BASE = import.meta.env.BASE_URL.replace(//$/, "")
 const UNSPLASH_PLACEHOLDER = 'https://source.unsplash.com/featured/?technology,code'
 
 function ProjectCard({ project, lang, index, featured = false }) {

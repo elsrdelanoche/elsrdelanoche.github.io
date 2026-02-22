@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Github, Linkedin, Mail, Heart } from 'lucide-react'
 
-const BASE = '/resume'
+const BASE = import.meta.env.BASE_URL.replace(//$/, "")
 
 export default function Footer({ lang, data }) {
   const profile = data.profile
