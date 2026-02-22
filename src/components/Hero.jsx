@@ -177,7 +177,7 @@ export default function Hero({ lang, data }) {
               </span>
               <span className="flex items-center gap-1.5">
                 <span className="text-electric-400">🎓</span>
-                {lang === 'en' ? 'ESCOM – IPN, Graduate' : 'ESCOM – IPN, Egresado}
+                {lang === 'en' ? 'ESCOM – IPN, Graduated' : 'ESCOM – IPN, Egresado'}
               </span>
               <span className="flex items-center gap-1.5">
                 <span className="text-electric-400">💼</span>
