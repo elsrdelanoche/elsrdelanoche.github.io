@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Alfredo Bautista Ríos",
-    "handle": "elsrdelanoche",
+    "handle": "ABR",
     "github": "https://github.com/elsrdelanoche",
     "linkedin": "https://www.linkedin.com/in/bautista-alfredo",
     "email": "alfredobr587@gmail.com",
@@ -10,19 +10,19 @@
     "logo": "images/transparentLogo.png",
     "en": {
       "title": "Computer Systems Engineer",
-      "focus": "Junior BI / Data Engineer · ML · Linux & Open-Source",
+      "focus": "Software Engineer·Data Engineer · AI/ML · Open-Source",
       "tagline": "Engineer with an artist's soul.",
-      "bio": "Computer Systems Engineering student (final semester, ESCOM – IPN). Motivated by building technological solutions that integrate data, software, and AI to solve real-world problems. Passionate about understanding systems in depth—from architecture to implementation—and turning ideas into functional, maintainable tools. I believe technology should be the engine that pushes us beyond our limits.",
+      "bio": "Motivated by building technological solutions that integrate data, software, and AI to solve real-world problems. Passionate about understanding systems in depth from architecture to implementation and turning ideas into functional, maintainable tools. I believe technology should be the engine that pushes us beyond our limits.",
       "downloadCV": "Download CV",
       "cvFile": "resume_en.pdf"
     },
     "es": {
       "title": "Ingeniero en Sistemas Computacionales",
-      "focus": "Junior BI / Ingeniero de Datos · ML · Linux & Open-Source",
+      "focus": "Ingeniero de Software · Ingeniero de Datos · IA/ML · Open-Source",
       "tagline": "Ingeniero con alma de artista.",
-      "bio": "Estudiante de último semestre de Ingeniería en Sistemas Computacionales en ESCOM – IPN. Motivado por construir soluciones tecnológicas que integren datos, software e IA para resolver problemas del mundo real. Apasionado por entender los sistemas a profundidad—desde la arquitectura hasta la implementación—y convertir ideas en herramientas funcionales y mantenibles. Convencido de que la tecnología debe ser el motor para superar nuestros límites.",
+      "bio": "Motivado por construir soluciones tecnológicas que integren datos, software e IA para resolver problemas del mundo real. Apasionado por entender los sistemas a profundidad desde la arquitectura hasta la implementación y convertir ideas en herramientas funcionales y mantenibles. Convencido de que la tecnología debe ser el motor para superar nuestros límites.",
       "downloadCV": "Descargar CV",
-      "cvFile": "resume_es.pdf"
+      "cvFile": "cvAlfredoBautista.pdf"
     }
   },
 
@@ -46,7 +46,7 @@
   "thesis": {
     "id": "thesis",
     "featured": true,
-    "image": "images/perfil1.png",
+    "image": "images/quiroscopio.png",
     "github": "https://elsrdelanoche.github.io",
     "en": {
       "label": "THESIS PROJECT",
@@ -235,7 +235,7 @@
           "icon": "Terminal",
           "items": [
             { "name": "Linux", "icon": "linux" },
-            { "name": "Git / GitHub", "icon": "github" },
+            { "name": "GitHub", "icon": "github" },
             { "name": "Raspberry Pi", "icon": "raspberrypi" },
             { "name": "Arduino", "icon": "arduino" },
             { "name": "GTK", "icon": "gtk" },
@@ -308,7 +308,7 @@
           "icon": "Terminal",
           "items": [
             { "name": "Linux", "icon": "linux" },
-            { "name": "Git / GitHub", "icon": "github" },
+            { "name": "GitHub", "icon": "github" },
             { "name": "Raspberry Pi", "icon": "raspberrypi" },
             { "name": "Arduino", "icon": "arduino" },
             { "name": "GTK", "icon": "gtk" },
@@ -362,7 +362,7 @@
           "type": "work",
           "role": "BI Trainee",
           "company": "Profuturo S.A. de C.V.",
-          "url": "https://www.profuturo.com.mx/",
+          "url": "https://www.profuturo.mx/",
           "period": "Feb 2025 – Present",
           "highlights": [
             "Designed/redesigned data models and mappings for multiple business units using SAS",
@@ -430,7 +430,7 @@
           "type": "work",
           "role": "BI Trainee",
           "company": "Profuturo S.A. de C.V.",
-          "url": "https://www.profuturo.com.mx/",
+          "url": "https://www.profuturo.mx/",
           "period": "Feb 2025 – Presente",
           "highlights": [
             "Diseño/rediseño de modelos de datos y mapeos para múltiples unidades de negocio con SAS",
@@ -466,7 +466,7 @@
           "type": "course",
           "role": "Samsung Innovation Campus — IA y Liderazgo",
           "company": "UDEM / Samsung",
-          "period": "2024",
+          "period": "2026",
           "highlights": [
             "Fundamentos de IA, matemáticas para ciencia de datos, análisis exploratorio de datos, machine learning",
             "Liderazgo técnico, trabajo en equipo, negociación y comunicación efectiva"
@@ -493,12 +493,12 @@
   "contact": {
     "en": {
       "sectionTitle": "Let's Connect",
-      "subtitle": "Open to junior BI/Data Engineering roles and interesting projects.",
+      "subtitle": "Open to IT roles and interesting projects.",
       "emailLabel": "Send an email"
     },
     "es": {
       "sectionTitle": "Hablemos",
-      "subtitle": "Abierto a posiciones junior de BI/Ingeniería de Datos y proyectos interesantes.",
+      "subtitle": "Abierto a posiciones de TI y proyectos interesantes.",
       "emailLabel": "Enviar un correo"
     }
   }
