@@ -98,9 +98,8 @@ export default function Footer({ lang, data }) {
 
           {/* Credit */}
           <p className="text-text-muted text-xs font-body flex items-center gap-1">
-            {lang === 'en' ? 'Made with' : 'Hecho con'}
+            {lang === 'en' ? 'Coded with good music in the background' : 'Programado con buena música de fondo'}
             <Heart size={11} className="text-electric-500 fill-electric-500" />
-            {lang === 'en' ? '& open source' : '& open source'}
           </p>
         </div>
       </footer>
